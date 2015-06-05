@@ -2,7 +2,7 @@
   background-color: #424651 !important;
 }
 .bg-secondary-1 {
-  background-color: #6f6f75 !important;
+  background-color: #2ebd59 !important;
 }
 .bg-secondary-2 {
   background-color: #8d8886 !important;
@@ -260,7 +260,7 @@ span.text-white a {
   }
 }
 section {
-  padding-top: 80px;
+  padding-top: 50px;
   padding-bottom: 80px;
   position: relative;
   overflow: hidden;
@@ -273,7 +273,7 @@ section.duplicatable-content {
   padding-bottom: 40px;
 }
 section:nth-of-type(odd) {
-  background: #f4f4f4;
+  background: #ffffff;
 }
 section:nth-of-type(even) {
   background: #ffffff;
@@ -325,21 +325,30 @@ section:nth-of-type(even) {
   background-color: #8d8886;
 }
 .btn-primary {
-  border-radius: 12px;
+  border-radius: 2px;
   display: inline-block;
   padding: 14px 28px 13px 28px;
   line-height: 1;
-  border: 2px solid #8d8886;
+  border: 2px solid #2ebd59;
   font-family: "Raleway", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: bold;
-  font-size: 11px;
+  font-size: 16px;
   text-transform: uppercase;
   letter-spacing: 1px;
   color: #8d8886;
 }
 .btn-primary.btn-filled {
-  background: #8d8886;
+  background: #2ebd59;
   color: #fff;
+}
+.btn-primary.btn-filled2 {
+  border-color: #ffffff;
+  color: #fff;
+  margin-top: 0px;
+}
+.btn-filled2:hover { 
+    background-color: #2ebd59;
+    color: #ffffff;
 }
 .btn-white {
   border-color: #fff;
@@ -429,9 +438,9 @@ nav hr {
   top: 0;
 }
 .top-bar .logo {
-  max-width: 80px;
+  max-width: 100px;
   position: relative;
-  bottom: 7px;
+  bottom: -5px;
 }
 .logo.logo-wide {
   max-width: 140px;
@@ -451,13 +460,13 @@ nav hr {
   bottom: 20px !important;
 }
 .nav-menu {
-  padding-top: 40px;
+  padding-top: 20px;
 }
 .nav-menu .social-icons {
   float: right;
 }
 .utility-menu {
-  margin-top: 16px;
+  margin-top: 0px;
 }
 .utility-menu .utility-inner {
   padding-bottom: 16px;
@@ -502,7 +511,7 @@ nav hr {
 .menu li a {
   font-family: "Raleway", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: bold;
-  font-size: 11px;
+  font-size: 16px;
   text-transform: uppercase;
   letter-spacing: 1px;
   color: #777777;
@@ -511,7 +520,7 @@ nav hr {
   transition: all .5s ease;
   padding-bottom: 40px;
   display: inline-block;
-  line-height: 14px;
+  line-height: 48px;
 }
 .menu li a:hover {
   color: #333333;
@@ -589,7 +598,7 @@ nav hr {
   top: 0;
 }
 .nav-sticky .logo {
-  bottom: 5px;
+  bottom: -5px;
 }
 .nav-sticky hr {
   display: none !important;
@@ -598,10 +607,10 @@ nav hr {
   background: rgba(255, 255, 255, 0.9);
 }
 .top-bar.nav-sticky .nav-menu {
-  padding-top: 32px;
+  padding-top: 10px;
 }
 .top-bar.nav-sticky .menu li a {
-  padding-bottom: 32px;
+  padding-bottom: 12px;
 }
 .top-bar.nav-sticky .subnav {
   background: rgba(255, 255, 255, 0.9);
@@ -958,7 +967,7 @@ header.signup:before {
   background-color: #333333;
 }
 .product-right {
-  height: 650px;
+  height: 450px;
   position: relative;
   overflow: hidden;
   padding: 0px;
@@ -979,7 +988,7 @@ header.signup:before {
   max-width: 750px;
 }
 .hero-divider {
-  padding: 160px 0px;
+  padding: 100px 0px;
   position: relative;
   overflow: hidden;
 }
@@ -1010,7 +1019,7 @@ header.signup:before {
 .video-wrapper {
   position: absolute;
   width: 100%;
-  top: 0px;
+  top: -120px;
   left: 0px;
   z-index: 0;
 }
@@ -1549,7 +1558,7 @@ img.phone-portrait {
   margin-bottom: 32px;
 }
 .strip {
-  padding: 64px 0px;
+  padding: 40px 0px;
 }
 .strip::-moz-placeholder {
   color: #999999;
@@ -2347,14 +2356,14 @@ input[type="submit"] {
   box-shadow: none;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   background: rgba(255, 255, 255, 0.85);
-  border-radius: 12px;
+  border-radius: 2px;
   padding: 14px 24px 14px 24px;
   width: 100%;
   margin-bottom: 30px;
 }
 .photo-form-wrapper .btn-filled {
-  background-color: #424651;
-  border-color: #424651;
+  background-color: #2ebd59;
+  border-color: #ffffff;
 }
 .photo-form-wrapper input:focus {
   outline: none;
@@ -2390,7 +2399,7 @@ input[type="submit"] {
   position: relative;
 }
 .map-holder {
-  height: 450px;
+  height: 300px;
 }
 .map-holder iframe {
   border: none;
@@ -2726,7 +2735,7 @@ footer.details {
 }
 footer.details .logo {
   margin-bottom: 54px;
-  max-width: 80px;
+  max-width: 100px;
   margin-top: 12px;
 }
 footer.details .sub {
