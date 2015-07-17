@@ -1460,7 +1460,7 @@ img.phone-portrait {
   margin-bottom: 0px;
 }
 .accordion {
-  border-radius: 25px;
+  border-radius: 4px;
   list-style: none;
   overflow: hidden;
   border: 2px solid #dadada;
