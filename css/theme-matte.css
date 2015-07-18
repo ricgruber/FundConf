@@ -321,7 +321,7 @@ section:nth-of-type(even) {
 .btn:hover {
   background: none;
   color: #fff;
-  border-color: #8d8886;
+  border-color: #ffffff;
   background-color: #8d8886;
 }
 .btn-primary {
@@ -329,7 +329,7 @@ section:nth-of-type(even) {
   display: inline-block;
   padding: 14px 28px 13px 28px;
   line-height: 1;
-  border: 2px solid #2ebd59;
+  border: 2px solid #ffffff;
   font-family: "Raleway", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: bold;
   font-size: 16px;
@@ -565,6 +565,7 @@ nav hr {
 }
 .overlay-bar .utility-menu .utility-inner {
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  margin-top: 15px;
 }
 .overlay-bar .login-button {
   border-color: #fff;
@@ -1598,7 +1599,7 @@ img.phone-portrait {
 }
 .social-icons {
   list-style: none;
-  overflow: hidden;
+  /*overflow: hidden;*/
   display: inline-block;
 }
 .social-icons li {
