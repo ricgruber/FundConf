@@ -137,7 +137,7 @@ img {
 }
 h1 {
   font-size: 34px;
-  line-height: 44px;
+  line-height: 40px;
   margin-bottom: 48px;
 }
 h2 {
@@ -518,7 +518,7 @@ nav hr {
   -webkit-transition: all .5s ease;
   -moz-transition: all .5s ease;
   transition: all .5s ease;
-  padding-bottom: 40px;
+  padding-bottom: 0px;
   display: inline-block;
   line-height: 48px;
 }
@@ -575,7 +575,7 @@ nav hr {
   display: none;
   position: absolute;
   background: #fff;
-  padding: 24px;
+  padding: 0px;
   -webkit-transition: all .5s ease;
   -moz-transition: all .5s ease;
   transition: all .5s ease;
@@ -586,7 +586,7 @@ nav hr {
 }
 .subnav li a {
   padding-bottom: 0px !important;
-  margin-bottom: 16px;
+  margin-bottom: 0px;
 }
 .subnav li:last-child a {
   margin-bottom: 0px;
@@ -605,7 +605,7 @@ nav hr {
   display: none !important;
 }
 .top-bar.nav-sticky {
-  background: rgba(255, 255, 255, 0.9);
+  background: #ffffff;
 }
 .top-bar.nav-sticky .nav-menu {
   padding-top: 10px;
@@ -1317,7 +1317,7 @@ img.phone-portrait {
 .client-row img {
   max-height: 60px;
   max-width: 140px;
-  opacity: 0.3;
+  opacity: 0.;
   -webkit-transition: all .3s ease;
   -moz-transition: all .3s ease;
   transition: all .3s ease;
@@ -1739,6 +1739,7 @@ img.phone-portrait {
 }
 .team-1 h1 {
   margin-bottom: 40px;
+      padding-top: 40px;
 }
 .team-1 h2 {
   margin-bottom: 8px;
@@ -2846,7 +2847,7 @@ footer.short-2 .contact-action:hover {
     padding-top: 24px;
   }
   .top-bar .logo {
-    bottom: 0px;
+    bottom: 20px;
   }
   .top-bar .logo.logo-wide {
     bottom: 3px;
@@ -3868,7 +3869,7 @@ footer.short-2 .contact-action:hover {
   text-align: left !important;
 }
 .subnav-halfwidth {
-  width: 500px;
+  width: 160px;
 }
 .menu li:last-child .subnav-halfwidth {
   right: 0px;
@@ -3897,7 +3898,6 @@ footer.short-2 .contact-action:hover {
 }
 .subnav-halfwidth .subnav {
   position: relative;
-  overflow: hidden;
   background: none !important;
   text-align: left;
   padding: 0px;
