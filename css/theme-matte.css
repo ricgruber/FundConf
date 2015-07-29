@@ -438,9 +438,10 @@ nav hr {
   top: 0;
 }
 .top-bar .logo {
-  max-width: 100px;
+  max-width: 125px;
   position: relative;
-  bottom: -5px;
+  bottom: 25px;
+
 }
 .logo.logo-wide {
   max-width: 140px;
@@ -511,7 +512,7 @@ nav hr {
 .menu li a {
   font-family: "Raleway", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 14px;
   text-transform: uppercase;
   letter-spacing: 1px;
   color: #777777;
@@ -520,7 +521,7 @@ nav hr {
   transition: all .5s ease;
   padding-bottom: 0px;
   display: inline-block;
-  line-height: 48px;
+  line-height: 20px;
 }
 .menu li a:hover {
   color: #333333;
@@ -579,13 +580,16 @@ nav hr {
   -webkit-transition: all .5s ease;
   -moz-transition: all .5s ease;
   transition: all .5s ease;
+
 }
 .subnav li {
   margin-right: 0px !important;
   min-width: 142px;
+  
 }
 .subnav li a {
-  padding-bottom: 0px !important;
+  padding-bottom: 10px !important;
+  padding-top: 10px;
   margin-bottom: 0px;
 }
 .subnav li:last-child a {
@@ -599,7 +603,7 @@ nav hr {
   top: 0;
 }
 .nav-sticky .logo {
-  bottom: -5px;
+  bottom: 10px;
 }
 .nav-sticky hr {
   display: none !important;
@@ -657,9 +661,11 @@ nav hr {
 }
 .overlay-bar.nav-sticky .logo-dark {
   display: block;
+  padding-top: 10px;
 }
 .overlay-bar.nav-sticky .menu li a {
   color: #777777;
+  padding-top: 10px;
 }
 .overlay-bar.nav-sticky .social-icons li a {
   color: #333333;
@@ -1247,6 +1253,12 @@ img.phone-portrait {
   z-index: 1;
   overflow: hidden;
   min-height: 397px;
+  border-top-color: #000000;
+    border-top: solid;
+    border-top-width: 3px;
+    border-right-color: #000000;
+    border-right-style: solid;
+}
 }
 .feature-box .background-image-holder {
   z-index: 0;
@@ -1265,6 +1277,8 @@ img.phone-portrait {
 }
 .feature-box h1 {
   margin-bottom: 24px;
+      border-top-color: #000000;
+    border: solid;
 }
 .feature-box .btn {
   margin-top: 24px;
@@ -4354,4 +4368,24 @@ footer.short-2 .contact-action:hover {
 }
 .no-loader .loader {
   display: none !important;
+}
+
+.top-bar .logo-light2 {
+  display: none;
+  bottom: 0px;
+}
+.overlay-bar .logo-light2 {
+  display: block;
+}
+
+.overlay-bar.nav-sticky .logo-light2 {
+  display: none;
+}
+
+.menu-short {
+  line-height: 60px;
+}
+
+.subnav-short {
+  line-height: 10px;
 }
