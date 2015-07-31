@@ -1343,13 +1343,13 @@ img.phone-portrait {
 .client-row .row-wrapper {
   display: inline-block;
   width: 80%;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 0px solid rgba(0, 0, 0, 0.2);
 }
 .client-row:last-child .row-wrapper {
   border-bottom: none;
 }
 .row-wrapper .col-sm-3 {
-  border-right: 1px solid rgba(0, 0, 0, 0.2);
+  border-right: 0px solid rgba(0, 0, 0, 0.2);
 }
 .row-wrapper .col-sm-3:last-child {
   border-right: none;
