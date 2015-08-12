@@ -512,7 +512,11 @@ nav hr {
 .menu li a {
   font-family: "Raleway", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: bold;
+<<<<<<< Updated upstream
   font-size: 14px;
+=======
+  font-size: 13px;
+>>>>>>> Stashed changes
   text-transform: uppercase;
   letter-spacing: 1px;
   color: #777777;

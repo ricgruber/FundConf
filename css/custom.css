@@ -1,0 +1,9 @@
+#pushdown{
+	margin-top: 30px;
+}
+
+@media(max-width: 400px){
+	#pushdown{
+		margin-top: 15px;
+	}
+}
