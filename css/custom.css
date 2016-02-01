@@ -234,7 +234,7 @@ a:active {
 input[type='text'], input:not([type]), textarea {
   font-size: 16px;
   font-weight: 600;
-      width: 290px;
+      width: 230px;
       border-radius: 4px;
       border-right-color: rgb(119,119,119);
       border-bottom-color: rgb(119,119,119);

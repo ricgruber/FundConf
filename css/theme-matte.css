@@ -170,6 +170,12 @@ p.lead {
   line-height: 30px;
   font-weight: normal;
 }
+
+p.leadpad {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 p:last-child {
   margin-bottom: 0px;
 }
@@ -325,7 +331,7 @@ section:nth-of-type(even) {
   background-color: #8d8886;
 }
 .btn-primary {
-  border-radius: 2px;
+  border-radius: 6px;
   display: inline-block;
   padding: 14px 28px 13px 28px;
   line-height: 1;
@@ -440,7 +446,7 @@ nav hr {
 .top-bar .logo {
   max-width: 125px;
   position: relative;
-  bottom: 25px;
+  bottom: 10px;
 
 }
 .logo.logo-wide {
@@ -525,7 +531,7 @@ nav hr {
   transition: all .5s ease;
   padding-bottom: 0px;
   display: inline-block;
-  line-height: 20px;
+  line-height: 30px;
 }
 .menu li a:hover {
   color: #333333;
@@ -1030,7 +1036,7 @@ header.signup:before {
 .video-wrapper {
   position: absolute;
   width: 100%;
-  top: -120px;
+  top: 0px;
   left: 0px;
   z-index: 0;
 }
@@ -1361,6 +1367,7 @@ img.phone-portrait {
 .clients-2 {
   text-align: center;
   padding: 64px 0px 64px 0px;
+
 }
 .clients-2 .col-md-2 {
   height: 80px;
@@ -2125,7 +2132,7 @@ blockquote {
   left: 15px;
 }
 .image-gallery {
-  margin-top: 64px;
+  margin-top: 0px;
 }
 .image-gallery .image-holder {
   margin-bottom: 30px;
@@ -2865,7 +2872,7 @@ footer.short-2 .contact-action:hover {
     padding-top: 24px;
   }
   .top-bar .logo {
-    bottom: 20px;
+    bottom: 15px;
   }
   .top-bar .logo.logo-wide {
     bottom: 3px;
